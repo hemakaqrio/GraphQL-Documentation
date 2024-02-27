@@ -1,9 +1,8 @@
 name: GraphQL API Documentation
 on:
-  push:
+  workflow_dispatch:
     branches:
       - workflows-testing
-  workflow_dispatch:
       
 jobs:
   deploy:
