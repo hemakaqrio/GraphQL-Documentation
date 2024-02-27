@@ -1,4 +1,4 @@
-name: GraphQL API Documentation
+name: GraphQL API Documentation testing
 
 on:
   workflow_dispatch:
