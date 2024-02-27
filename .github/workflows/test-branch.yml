@@ -1,8 +1,5 @@
 name: Test-Branch1
 on:
-  push:
-    branches:
-      - workflows-testing
   workflow_dispatch:
     
 jobs:
