@@ -1,4 +1,4 @@
-name: GraphQL API Documentation new test
+name: GraphQL API Documentation new
 run-name: ${{ github.actor }} is running GraphQL API Doc Generator
 
 on:
