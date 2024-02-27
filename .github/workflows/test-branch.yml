@@ -1,5 +1,8 @@
-name: Test Branch
+name: GraphQL API Documentation
 on:
+  push:
+    branches:
+      - workflows-testing
   workflow_dispatch:
       
 jobs:
