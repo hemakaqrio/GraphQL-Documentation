@@ -1,9 +1,7 @@
 name: Test-Branch
 on:
   workflow_dispatch:
-    branches:
-      - workflows-testing
-      
+    
 jobs:
   deploy:
     runs-on: ubuntu-latest
