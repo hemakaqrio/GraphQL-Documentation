@@ -2,6 +2,9 @@ name: GraphQL API Documentation new
 run-name: ${{ github.actor }} is running GraphQL API Doc Generator
 
 on:
+  push:
+    branches:
+      - test2
   workflow_dispatch:
       
 jobs:
